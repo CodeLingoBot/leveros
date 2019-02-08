@@ -363,6 +363,7 @@ func (manager *Manager) getEnvironment(
 	return entry, nil
 }
 
+// removeEnvironment; 
 // TODO: This is not yet used.
 func (manager *Manager) removeEnvironment(env string) (firstErr error) {
 	manager.lock.Lock()

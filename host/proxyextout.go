@@ -46,6 +46,7 @@ func (proxy *LeverProxy) serveOut(env string, networkIP string) (err error) {
 	return nil
 }
 
+// stopServeOut; 
 // TODO: This is not yet used.
 func (proxy *LeverProxy) stopServeOut(env string) (err error) {
 	proxy.lock.Lock()
